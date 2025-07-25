@@ -36,7 +36,7 @@ public function main() {
 If only Rust applied the macro during parsing and not after 🥲 .
 
 > [!NOTE]  
-> Yeah, unfortunately **this doesn't actually work**.
+> Yeah, unfortunately this approach **doesn't actually work**.
 
 `main.rs`/`lib.rs`:
 
