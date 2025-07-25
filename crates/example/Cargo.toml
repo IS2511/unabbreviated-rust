@@ -1,10 +1,10 @@
 [package]
-name = "unabbreviated-rust-example"
+name = "unabbreviated-example"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-unabbreviated-rust = { path = "../unabbreviated-rust" }
+unabbreviated = { path = "../unabbreviated" }
 
 # [build-dependencies]
-# unabbreviated-rust = { path = "../unabbreviated-rust" }
+# unabbreviated = { path = "../unabbreviated" }

@@ -4,7 +4,7 @@
 // Proc macro experiments to apply transformation to the whole file
 // mod cursed;
 
-unabbreviated_rust::rust! {
+unabbreviated::rust! {
 
 func main() {
     foo::greet();

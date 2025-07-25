@@ -1,0 +1,12 @@
+[package]
+name = "unabbreviated"
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+description = "Make Rust code longer for no reason."
+keywords = ["joke", "fun", "rust", "unabbreviated"]
+
+[dependencies]
+
+[lib]
+proc-macro = true
