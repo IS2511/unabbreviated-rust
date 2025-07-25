@@ -15,13 +15,13 @@ If you for some reason want this:
 `Cargo.toml`:
 
 ```toml
-unabbreviated-rust = "0.1"
+unabbreviated = "0.1"
 ```
 
 Usage:
 
 ```rust
-unabbreviated_rust::rust! {
+unabbreviated::rust! {
 
 public function main() {
     println!("Hello, world!");
@@ -50,7 +50,7 @@ Other `.rs` files:
 
 ```rust
 // Put this macro at the top of each file
-#![unabbreviated_rust::unabbreviated_rust]
+#![unabbreviated::file]
 
 public function greet() {
     println!("Hello, world!");
